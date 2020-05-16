@@ -66,9 +66,7 @@ value we're iterating over is another hash, we will explicitly add a `_hash` to
 the end of the variable name (E.G. `contact_details_hash` below).
 
 ```ruby
-contacts.each do |person, contact_details_hash|
-  binding.pry
-end
+
 ```
 
 In the terminal, let's hit the `pry` by running `learn`, and check
